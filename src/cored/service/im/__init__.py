@@ -8,7 +8,7 @@ from typing import TYPE_CHECKING
 if TYPE_CHECKING:
     from cored.core.config import Config
 
-from cored.service.im.v1 import V1
+from cored.service.im.v1 import V1 as V1
 
 
 class Service:
